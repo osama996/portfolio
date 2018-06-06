@@ -6281,3 +6281,69 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("/images/berlin.jpeg") no-repeat fixed left;
+  background-size: cover;
+  font-size: 1.2rem; }
+
+* {
+  box-sizing: border-box; }
+
+.hidden {
+  display: none; }
+
+.my-navbar {
+  font-size: 1.2rem; }
+
+.scrolled {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+/*---------------------------------------*/
+.main-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100vh;
+  color: #EDB200; }
+
+.main-content {
+  font-size: 1.5rem;
+  margin-top: 25vh; }
+
+.main-downicon {
+  margin-top: 6rem;
+  box-sizing: border-box; }
+  .main-downicon i {
+    color: #EDB200; }
+
+/*-----------------End of the first page----------------------*/
+.about-container {
+  background-color: rgba(55, 190, 255, 0.9);
+  color: black; }
+  .about-container .myAboutImg {
+    width: 50%;
+    border-radius: 10%;
+    border-bottom-left-radius: 30%;
+    border-top-right-radius: 30%; }
+  .about-container .tech-list-item {
+    border: none;
+    background-color: transparent; }
+
+/*-----------------End of the second page----------------------*/
+.projects-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #EDB200; }
+
+/*-----------------End of the third page----------------------*/
+.contact-container {
+  background-color: rgba(55, 190, 255, 0.9); }
+
+.contact-form {
+  background: url("/images/berlin.jpeg") no-repeat fixed left;
+  background-size: cover;
+  border-radius: 1rem; }
+  .contact-form form {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 1rem;
+    margin: 0; }
