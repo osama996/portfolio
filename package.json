@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass-chokidar src/sass/ -o public/css/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/sass/ -o public/css/ --watch --recursive",
+    "watch-css": "npm run build-css && node-sass-chokidar src/sass/*.scss -o public/css/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",

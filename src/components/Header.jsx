@@ -10,11 +10,10 @@ class Header extends React.Component {
         strokeWidth: 0.2,
         from: {color: '#941100'},
         to: {color: '#EDB200'},
-        step: function(state, bar, attachment) {
+        step: function(state, bar) {
           bar.path.setAttribute('stroke', state.color);
         }
     });
-
     line.animate(1);
   };
 
@@ -32,7 +31,7 @@ class Header extends React.Component {
               <div className="col-md-1 col-lg-2" />
               <div className="col-md-10 col-lg-8">
                 <div className="intro">
-                  <div className="profile-img"><img src="images/my-img.jpg" alt /></div>
+                  <div className="profile-img"><img src="images/my-img.jpg" alt="my profile img" /></div>
                   <h2><b>Osama Rashid</b></h2>
                   <h4 className="font-yellow">Junior Web Developer</h4>
                   <ul className="information mt-4">
@@ -40,10 +39,10 @@ class Header extends React.Component {
                     <li><b>EMAIL: </b>osama27rashid@gmail.com</li>
                   </ul>
                   <ul className="social-icons">
-                    <li><a target='_blank' href="https://www.instagram.com/osama_fayoni"><i class="fa fa-instagram" aria-hidden="true" /></a></li>
-                    <li><a target='_blank' href="https://linkedin.com/in/osama-rashid-669773157/"><i class="fa fa-linkedin" aria-hidden="true" /></a></li>
-                    <li><a target='_blank' href="https://www.xing.com/profile/Osama_Rashid5/cv"><i class="fa fa-xing" aria-hidden="true" /></a></li>
-                    <li><a target='_blank' href="https://github.com/osama996"><i class="fa fa-github" aria-hidden="true" /></a></li>
+                    <li><a target='_blank' rel="noopener noreferrer" href="https://www.instagram.com/osama_fayoni"><i class="fa fa-instagram" aria-hidden="true" /></a></li>
+                    <li><a target='_blank' rel="noopener noreferrer" href="https://linkedin.com/in/osama-rashid-669773157/"><i class="fa fa-linkedin" aria-hidden="true" /></a></li>
+                    <li><a target='_blank' rel="noopener noreferrer" href="https://www.xing.com/profile/Osama_Rashid5/cv"><i class="fa fa-xing" aria-hidden="true" /></a></li>
+                    <li><a target='_blank' rel="noopener noreferrer" href="https://github.com/osama996"><i class="fa fa-github" aria-hidden="true" /></a></li>
                   </ul>
                 </div>{/* intro */}
               </div>{/* col-sm-8 */}

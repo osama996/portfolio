@@ -3,19 +3,43 @@ $color-basic: #FFA804;
 
 /* --------------PRIMARY STYLES--------------------- */
 
-html{ font-size: 100%; height: 100%; overflow-x: hidden; margin: 0px;  padding: 0px; touch-action: manipulation; }
+html{ 
+  font-size: 100%;
+  height: 100%; 
+  overflow-x: hidden; 
+  margin: 0px;  
+  padding: 0px; 
+  touch-action: manipulation; 
+}
 
-body{ font-size: 16px; font-family: 'Poppins', serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
-	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
-	color: #333; }
+body{ 
+  font-size: 16px; 
+  font-family: 'Poppins', serif; 
+  width: 100%; 
+  height: 100%; 
+  margin: 0; 
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+  word-wrap: break-word; 
+  color: #333; 
+}
 
-h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, input, button{ margin: 0; padding: 0; }
+h1,h2,h3,h4,h5,h6{ 
+  line-height: 1.5; 
+  font-weight: inherit; 
+}
 
-h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
+h1,h2,h3{ 
+  font-family: 'Poppins', cursive; 
+}
 
-h1,h2,h3{ font-family: 'Poppins', cursive; }
-
-p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #777; }
+p{ 
+  line-height: 1.6; 
+  font-size: 1.05em; 
+  font-weight: 400; 
+  color: #777; 
+}
 
 h1{ font-size: 4em; line-height: 1; }
 h2{ font-size: 2.2em; line-height: 1.1; }
@@ -24,54 +48,115 @@ h4{ font-size: 1.3em; }
 h5{ font-size: 1em; }
 h6{ font-size: .9em; letter-spacing: 1px; }
 
-a, button{ display: inline-block; text-decoration: none; color: inherit; line-height: 1; transition: all .25s ease-in-out; }
+a, button{ 
+  display: inline-block; 
+  text-decoration: none; 
+  color: inherit; 
+  line-height: 1; 
+  transition: all .25s ease-in-out; 
+}
 
 a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
-a b.light-color:hover{ text-decoration: none; color: #FFA804; }
+a b.light-color:hover{ 
+  text-decoration: none; 
+  color: #FFA804; 
+}
 
-b{ font-weight: 600; }
+img{ 
+  width: 100%; 
+}
 
-img{ width: 100%; }
-
-li{ list-style: none; display: inline-block; }
-
-span{ display: inline-block; }
-
-button{ outline: 0; border: 0; background: none; cursor: pointer; }
-
-.icon{ font-size: 1.1em; display: inline-block; line-height: inherit; }
-
-[class^="icon-"]:before, [class*=" icon-"]:before{ line-height: inherit; }
-
-b.max-bold{ font-weight: 700; }
-
+li{ 
+  list-style: none; 
+  display: inline-block; 
+}
 
 /* --------------HEADER---------------- */
 
-.intro-section{ padding-top: 150px; position: relative; background-size: cover; 
-	z-index: 1;background-image: url(../../images/mac.jpg); }
+.intro-section{ 
+  padding-top: 150px; 
+  position: relative; 
+  background-size: cover; 
+  z-index: 1;
+  background-image: url(../../images/code2.jpg)
+}
 
-.intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
-	right: 0; background: rgba(0,0,0, .2); }
+.intro-section:before{ 
+  content:''; 
+  z-index: -1; 
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  background: rgba(0,0,0, .2); 
+}
 	
-.intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	height: 150px; z-index: -1; background: #fff; }
+.intro-section:after{ 
+  content: ''; 
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+  height: 150px; 
+  z-index: -1; 
+  background: #fff; 
+}
 
-.intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff; }
+.intro{ 
+  padding: 0 20px; 
+  margin-top: 100px; 
+  text-align: center; 
+  background: #fff; 
+}
 
-.intro .profile-img{ height: 200px; width: 200px; border-radius: 100px; margin: 0 auto; 
-	overflow: hidden; position: relative; top: -100px; margin-bottom: -70px; }
+.intro .profile-img{ 
+  height: 200px; 
+  width: 200px; 
+  border-radius: 100px; 
+  margin: 0 auto; 
+  overflow: hidden; 
+  position: relative; 
+  top: -100px; 
+  margin-bottom: -70px; 
+}
 
-.intro .information > li{ display: block; margin: 5px 0; }
+.intro .information > li{ 
+  display: block; 
+  margin: 5px 0; 
+}
 
-.intro .social-icons > li > a{ height: 35px; line-height: 38px; width: 35px; border-radius: 20px; 
-	overflow: hidden; z-index: 1; position: relative; margin: 10px 5px; background: #887392; color: #fff; }
+.intro .social-icons > li > a{ 
+  height: 35px; 
+  line-height: 35px; 
+  width: 35px; 
+  border-radius: 20px; 
+  overflow: hidden; 
+  z-index: 1; 
+  position: relative; 
+  margin: 10px 5px; 
+  background: #887392; 
+  color: #fff; 
+}
 
-.intro .social-icons > li > a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-  top: 0; z-index: -1; border-radius: 20px; background: #FFA804; transition: all .2s ease; transform: scale(0) }
+.intro .social-icons > li > a:after{ 
+  content: ''; 
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+  top: 0; 
+  z-index: -1; 
+  border-radius: 20px; 
+  background: #FFA804; 
+  transition: all .2s ease; 
+  transform: scale(0) 
+}
 
-.intro .social-icons > li > a:hover:after{ transform: scale(1); }
+.intro .social-icons > li > a:hover:after{ 
+  transform: scale(1); 
+}
 
 .font-yellow {
 	color: $color-basic;

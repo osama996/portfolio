@@ -6330,10 +6330,6 @@ body {
   word-wrap: break-word;
   color: #333; }
 
-h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, input, button {
-  margin: 0;
-  padding: 0; }
-
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
   font-weight: inherit; }
@@ -6381,9 +6377,6 @@ a b.light-color:hover {
   text-decoration: none;
   color: #FFA804; }
 
-b {
-  font-weight: 600; }
-
 img {
   width: 100%; }
 
@@ -6391,33 +6384,13 @@ li {
   list-style: none;
   display: inline-block; }
 
-span {
-  display: inline-block; }
-
-button {
-  outline: 0;
-  border: 0;
-  background: none;
-  cursor: pointer; }
-
-.icon {
-  font-size: 1.1em;
-  display: inline-block;
-  line-height: inherit; }
-
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  line-height: inherit; }
-
-b.max-bold {
-  font-weight: 700; }
-
 /* --------------HEADER---------------- */
 .intro-section {
   padding-top: 150px;
   position: relative;
   background-size: cover;
   z-index: 1;
-  background-image: url(../../images/mac.jpg); }
+  background-image: url(../../images/code2.jpg); }
 
 .intro-section:before {
   content: '';
@@ -6461,7 +6434,7 @@ b.max-bold {
 
 .intro .social-icons > li > a {
   height: 35px;
-  line-height: 38px;
+  line-height: 35px;
   width: 35px;
   border-radius: 20px;
   overflow: hidden;

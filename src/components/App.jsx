@@ -12,12 +12,10 @@ class App extends React.Component {
     return (
       <Router>
         <Fragment>
-          <div role="main" className="main-container p-0 m-0">
             <Header />
-            <Route render={() => <Main /> } />
+            {/* <Route render={() => <Main /> } />
             <Route render={() => <About /> } />
-            <Route render={() => <Contact /> } />
-          </div>
+            <Route render={() => <Contact /> } /> */}
         </Fragment>
       </Router>
     );
