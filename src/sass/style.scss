@@ -79,7 +79,7 @@ li{
   position: relative; 
   background-size: cover; 
   z-index: 1;
-  background-image: url(../../images/code2.jpg)
+  background-image: url(../images/code2.jpg)
 }
 
 .intro-section:before{ 
@@ -164,8 +164,6 @@ li{
 /*-------main-container------*/
 
 .main-container {
-  // background-color: rgba(black, 0.4);
-  // height: 100vh;
   color: 'black';
   font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
@@ -196,10 +194,6 @@ li{
     border-bottom-left-radius: 30%;
     border-top-right-radius: 30%;
   }
-
-  // .tech-list {
-  //   color: $color-basic;
-  // }
 
   .tech-list-item {
       border: none;

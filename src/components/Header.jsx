@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import ProgressBar from 'progressbar.js'
-
+import myImg from '../images/my-img.jpg'
 class Header extends React.Component {
 
   onLoad = () => {
@@ -31,7 +31,9 @@ class Header extends React.Component {
               <div className="col-md-1 col-lg-2" />
               <div className="col-md-10 col-lg-8">
                 <div className="intro">
-                  <div className="profile-img"><img src="images/my-img.jpg" alt="my profile img" /></div>
+                  <div className="profile-img">
+                    <img src={myImg} alt="my profile img" />
+                  </div>
                   <h2><b>Osama Rashid</b></h2>
                   <h4 className="font-yellow">Junior Web Developer</h4>
                   <ul className="information mt-4">
