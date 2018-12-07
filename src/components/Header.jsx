@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import ProgressBar from 'progressbar.js'
 import myImg from '../images/my-img.jpg'
+
 class Header extends React.Component {
 
   onLoad = () => {
@@ -9,7 +10,7 @@ class Header extends React.Component {
         easing: 'easeInOut',
         strokeWidth: 0.2,
         from: {color: '#941100'},
-        to: {color: '#EDB200'},
+        to: {color: '#FFA804'},
         step: function(state, bar) {
           bar.path.setAttribute('stroke', state.color);
         }
@@ -28,26 +29,19 @@ class Header extends React.Component {
         <section className="intro-section">
           <div className="container">
             <div className="row">
-              <div className="col-md-1 col-lg-2" />
-              <div className="col-md-10 col-lg-8">
+              <div className="mx-auto col-md-9 col-lg-8">
                 <div className="intro">
                   <div className="profile-img">
                     <img src={myImg} alt="my profile img" />
                   </div>
-                  <h2><b>Osama Rashid</b></h2>
-                  <h4 className="font-yellow">Junior Web Developer</h4>
-                  <ul className="information mt-4">
-                    <li><b>BORN: </b>October 10, 1996</li>
-                    <li><b>EMAIL: </b>osama27rashid@gmail.com</li>
-                  </ul>
-                  <ul className="social-icons">
-                    <li><a target='_blank' rel="noopener noreferrer" href="https://www.instagram.com/osama_fayoni"><i class="fa fa-instagram" aria-hidden="true" /></a></li>
-                    <li><a target='_blank' rel="noopener noreferrer" href="https://linkedin.com/in/osama-rashid-669773157/"><i class="fa fa-linkedin" aria-hidden="true" /></a></li>
-                    <li><a target='_blank' rel="noopener noreferrer" href="https://www.xing.com/profile/Osama_Rashid5/cv"><i class="fa fa-xing" aria-hidden="true" /></a></li>
-                    <li><a target='_blank' rel="noopener noreferrer" href="https://github.com/osama996"><i class="fa fa-github" aria-hidden="true" /></a></li>
+                  <h2 className='font-poiret'><b>Osama Rashid</b></h2>
+                  <h5 className="basic-color">Junior Web Developer</h5>
+                  <ul className="information mt-3 p-0">
+                    <li><i className="fa fa-home" aria-hidden="true"></i> Berlin, Germany</li>
+                    <li><i className="fa fa-envelope" aria-hidden="true"></i> osama27rashid@gmail.com</li>
                   </ul>
                 </div>{/* intro */}
-              </div>{/* col-sm-8 */}
+              </div>{/* col-lg-8 */}
             </div>{/* row */}
           </div>{/* container */}
         </section>{/* intro-section */}
