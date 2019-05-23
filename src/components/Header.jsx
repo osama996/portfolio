@@ -37,16 +37,16 @@ class Header extends React.Component {
                     <b>Osama Rashid</b>
                   </h2>
                   <h5 className="basic-color">Web Developer</h5>
-                  <ul className="information mt-3 p-0">
-                    <li>
+                  <div className="information mt-4 p-0">
+                    <h6>
                       <i className="fa fa-home" aria-hidden="true" /> Berlin,
                       Germany
-                    </li>
-                    <li>
+                    </h6>
+                    <h6>
                       <i className="fa fa-envelope" aria-hidden="true" />{" "}
-                      osama@fayoni.me
-                    </li>
-                  </ul>
+                      Osama@fayoni.me
+                    </h6>
+                  </div>
                 </div>
                 {/* intro */}
               </div>

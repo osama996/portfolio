@@ -33,7 +33,7 @@ class About extends React.Component {
                 <li className="list-group-item tech-list-item font-poiret-p">
                   JAVASCRIPT
                   <Line
-                    percent="84"
+                    percent="80"
                     trailWidth="3"
                     trailColor="#AB96B8"
                     strokeWidth="3"
@@ -43,7 +43,7 @@ class About extends React.Component {
                 <li className="list-group-item tech-list-item font-poiret-p">
                   HTML & CSS
                   <Line
-                    percent="79"
+                    percent="76"
                     trailWidth="3"
                     trailColor="#AB96B8"
                     strokeWidth="3"
@@ -75,7 +75,7 @@ class About extends React.Component {
                 <li className="list-group-item tech-list-item font-poiret-p">
                   REACT
                   <Line
-                    percent="78"
+                    percent="75"
                     trailWidth="3"
                     trailColor="#AB96B8"
                     strokeWidth="3"
@@ -85,7 +85,7 @@ class About extends React.Component {
                 <li className="list-group-item tech-list-item font-poiret-p">
                   REACT NATIVE
                   <Line
-                    percent="60"
+                    percent="55"
                     trailWidth="3"
                     trailColor="#AB96B8"
                     strokeWidth="3"
@@ -95,7 +95,7 @@ class About extends React.Component {
                 <li className="list-group-item tech-list-item font-poiret-p">
                   NODE
                   <Line
-                    percent="75"
+                    percent="72"
                     trailWidth="3"
                     trailColor="#AB96B8"
                     strokeWidth="3"
@@ -105,7 +105,7 @@ class About extends React.Component {
                 <li className="list-group-item tech-list-item font-poiret-p">
                   MONGO DB
                   <Line
-                    percent="75"
+                    percent="71"
                     trailWidth="3"
                     trailColor="#AB96B8"
                     strokeWidth="3"
