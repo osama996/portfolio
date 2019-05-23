@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass-chokidar src/sass/ -o src/css/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/sass/*.scss -o src/css/ --watch --recursive",
+    "watch-css": "npm run build-css && node-sass-chokidar src/sass/*.scss -o src/css/*.css --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all start-js -p watch-css",
     "build-js": "react-scripts build",
@@ -15,16 +15,16 @@
   "author": "Osama Fayoni",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.1.3",
+    "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
     "node-sass-chokidar": "^1.2.2",
     "npm-run-all": "^4.1.5",
     "progressbar.js": "^1.0.1",
     "rc-progress": "^2.2.6",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.3"
+    "react-scripts": "^2.1.8"
   },
   "browserslist": [
     ">0.2%",
