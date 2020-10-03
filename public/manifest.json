@@ -11,6 +11,6 @@
 	"start_url": "/",
 	"display": "standalone",
 	"theme_color": "#000",
-	"background_color": "#fff",
+	"background_color": "#000",
 	"description": "Osama Rashid's portfolio website."
 }
