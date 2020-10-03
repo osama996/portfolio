@@ -1,35 +1,35 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "my portfolio build with react",
-  "main": "index.js",
-  "scripts": {
-    "build-css": "node-sass-chokidar src/sass/ -o src/css/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/sass/*.scss -o src/css/*.css --watch --recursive",
-    "start-js": "react-scripts start",
-    "start": "npm-run-all start-js -p watch-css",
-    "build-js": "react-scripts build",
-    "build": "npm-run-all build-js build-css",
-    "eject": "react-scripts eject"
-  },
-  "author": "Osama Fayoni",
-  "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "font-awesome": "^4.7.0",
-    "node-sass-chokidar": "^1.2.2",
-    "npm-run-all": "^4.1.5",
-    "progressbar.js": "^1.0.1",
-    "rc-progress": "^2.2.6",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.8"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+	"name": "portofolio",
+	"version": "0.1.1",
+	"author": "Osama Fayoni",
+	"dependencies": {
+		"bootstrap": "4.5.2",
+		"progressbar.js": "^1.1.0",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-scripts": "3.4.3"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"lint:fix": "eslint src --ext .js,jsx --fix"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"eslint-plugin-react": "^7.21.3"
+	}
 }
