@@ -85,7 +85,7 @@ li {
 	position: relative;
 	background-size: cover;
 	z-index: 1;
-	background-image: url("../images/img2.jpg");
+	background: url("../images/background-img.jpg") no-repeat 40% 40%;
 }
 
 .intro-section:before {
@@ -137,26 +137,26 @@ li {
 .about-container .tech-list-item {
 	border: none;
 }
-
+/* 
 .projects-container {
 	background-color: rgba(black, 0.4);
 	color: #ffa804;
-}
+} */
 
-.contact-container {
+/* .contact-container {
 	background-color: rgba(#37beff, 0.9);
 }
 .contact-form {
 	background: url("/images/berlin.jpeg") no-repeat fixed left;
 	background-size: cover;
 	border-radius: 1rem;
-}
-
+} */
+/* 
 .contact-form .form {
 	background-color: rgba(black, 0.8);
 	border-radius: 1rem;
 	margin: 0;
-}
+} */
 
 /*----------------- Footer ----------------------*/
 .footer {
