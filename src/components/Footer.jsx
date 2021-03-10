@@ -4,6 +4,7 @@ import { ReactComponent as Instagram } from '../images/icons/instagram.svg'
 import { ReactComponent as Linkedin } from '../images/icons/linkedin.svg'
 import { ReactComponent as Xing } from '../images/icons/xing.svg'
 import { ReactComponent as SOF } from '../images/icons/stackoverflow.svg'
+import { ReactComponent as Youtube } from '../images/icons/youtube.svg'
 
 const Footer = () => {
 	return (
@@ -64,6 +65,16 @@ const Footer = () => {
 						>
 							<h3>
 								<Xing />
+							</h3>
+						</a>
+						<a
+							className="m-0"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://www.youtube.com/channel/UCeyWlooU632jLXzIKMfUq-g"
+						>
+							<h3>
+								<Youtube />
 							</h3>
 						</a>
 					</div>

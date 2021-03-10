@@ -7,7 +7,7 @@ import { ReactComponent as MailIcon } from '../images/icons/email.svg'
 const Header = () => {
 	const onLoad = () => {
 		const line = new ProgressBar.Line('.progress-container', {
-			duration: 1500,
+			duration: 1300,
 			easing: 'easeInOut',
 			strokeWidth: 0.2,
 			from: { color: '#941100' },
